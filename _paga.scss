@@ -144,11 +144,11 @@ input {
   }
   &__paypal {
     @include icono;
-    background-image: url('../iconos/logotipo-de-paypal.svg');
+    background-image: url('iconos/logotipo-de-paypal.svg');
   }
   &__visa {
     @include icono;
-    background-image: url('../iconos/logotipo-de-visa.svg');
+    background-image: url('iconos/logotipo-de-visa.svg');
   }
   &__pay {
     color: white;
