@@ -742,3 +742,11 @@ footer{
   margin: 0 auto;
 }
 
+@media only screen and (min-width: 300px) {
+  .main-title {
+    width: 100%;
+  }
+  .main-title h1 {
+    font-size: 1.5em;
+  }
+}
