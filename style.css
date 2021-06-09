@@ -270,23 +270,23 @@ nav .icon{
 }
 
 .plane{
-  background-image: url('/iconos/avion.svg');
+  background-image: url('./iconos/avion.svg');
 }
 
 .bed{
-  background-image: url('/iconos/cama-de-matrimonio.svg');
+  background-image: url('./iconos/cama-de-matrimonio.svg');
 }
 
 .ticket{
-  background-image: url('/iconos/entradas.svg');
+  background-image: url('./iconos/entradas.svg');
 }
 
 .beach{
-  background-image: url('/iconos/sombrilla.svg');
+  background-image: url('./iconos/sombrilla.svg');
 }
 
 .forkpoon{
-  background-image: url('/iconos/restaurante.svg');
+  background-image: url('./iconos/restaurante.svg');
 }
 
 /* SECCIÓN RECOMENDADOS */
