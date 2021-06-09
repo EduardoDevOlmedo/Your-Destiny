@@ -102,6 +102,7 @@ input:focus {
 .submit{
   box-shadow: none;
   border: none;
+  text-decoration: none;
   padding: 10px;
   color: white;
   font-size: 1.6rem;
