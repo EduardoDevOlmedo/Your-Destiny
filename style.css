@@ -638,6 +638,7 @@ footer{
   position: relative;
   margin: 0;
   padding: 0;
+  color: black;
   list-style: none;
 }
 
@@ -740,3 +741,4 @@ footer{
   width: 100px;
   margin: 0 auto;
 }
+
