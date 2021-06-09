@@ -1,0 +1,17 @@
+:root {     
+    --color-fondo-principal: #F2EAD6;
+    --color-botones: #85FF82;
+    --color-secundario: #FDFFAC;
+    --fuente-titulo: lobster;
+    --fuente-cuerpo: quicksand;
+}
+
+
+:root { 
+    --color-fondo-principal: #ffd25e;
+    --color-primer-cuadro: #788DD9;
+    --color-segundo-cuadro: #FF8A7E;
+    --color-tercer-cuadro: #79FA85;
+    --color-secundario-oscuro: #100b0b;
+    --color-fondo-principal-smartphone: #FFEBB8;
+}

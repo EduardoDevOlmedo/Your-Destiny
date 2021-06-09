@@ -1,0 +1,132 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 62.5%;
+  min-height: 320px;
+}
+
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.6rem;
+  background: white;
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+
+.form-logo{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-container {
+  width:95%;
+  min-width: 95%;
+  margin: 0 auto; 
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 9px;
+  border: 0.5px solid black;
+}
+
+
+.mail {
+  width: 200px;
+  margin: 10px;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.separation {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 17px;
+}
+
+.separation > input{
+  width: 100px;
+  margin: 2px;
+}
+
+.form-icon{
+  display: inline-block;
+  background-image: url('../iconos/edit.svg');
+  height: 30px;
+  vertical-align: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input{
+  padding: 5px;
+  font-family: 'Quicksand', sans-serif;
+  outline: none;
+  cursor: text;
+  border-radius: 5px;
+  color: #222228;
+  font-weight: 600;
+  border: 0.3px solid black;
+}
+
+@media only screen and (min-width: 320px){
+  .form-icon{
+    width: 30px;
+  }
+}
+
+.terms{
+  display: block;
+  width: 104%;
+}
+
+input {
+  transition: 0.3s cubic-bezier(0.39, 0.58, 1, 1.59);
+}
+
+input:focus {
+  padding: 8px;
+  box-shadow: 1px 2px 3px 1px rgba(#272727)
+}
+
+
+.submit{
+  box-shadow: none;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s cubic-bezier(0.89, 0.01, 0.76, 1.35);
+  background-image: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%);
+}
+
+.submit:hover{
+  box-shadow: 5px 5px 0px 0px #bcc5ca, 10px 10px 0px 0px #bcc5ca, 15px 15px 0px 0px #A1D8FF, 10px 10px 0px 0px #CAE6FF, 15px 15px 0px 0px #E1EEFF, 1px -2px 16px 6px rgba(15,15,15,0);
+}
+
+:required{
+  font-family: 'Quicksand', sans-serif;
+}
+
+@media only screen and (min-width: 1024px) {
+  html{
+    font-size: 0.5rem;
+  }
+  * > input{
+    font-size: 1.4rem;
+  }
+  .mail{
+    width: 298px;
+  }
+}

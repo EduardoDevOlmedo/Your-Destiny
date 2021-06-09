@@ -1,0 +1,226 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  min-height: 100%;
+  position: relative;
+  min-width: 320px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: white;
+  -webkit-box-shadow: inset 0 0 5px white;
+          box-shadow: inset 0 0 5px white;
+  border-radius: 10px;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background: #f5f7f8;
+  font-size: 1.6rem;
+  color: black;
+}
+
+header {
+  min-width: 320px !important;
+}
+
+#title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2px;
+  padding-top: 10px;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+
+.main {
+  height: 100%;
+}
+.main__forms-one {
+  color: black;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.firstform__entrance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  gap: 11px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90px;
+}
+.container__form input {
+  width: 20%;
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  font-family: "Quicksand", sans-serif;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #292929;
+}
+
+.forms-two {
+  text-align: center;
+  margin: 0 auto;
+}
+.forms-two input {
+  margin: 10px;
+}
+
+.num__cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 141px;
+  margin: 0 auto;
+}
+.num__cont {
+  -webkit-transform: translateY(-80%);
+          transform: translateY(-80%);
+}
+
+.place {
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #1a1918;
+}
+.place__img img {
+  border-radius: 15px;
+  width: 90%;
+}
+.place__desc {
+  padding-top: 5px;
+  color: white;
+  font-weight: bold;
+  width: 86%;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 2.4rem;
+}
+.place__wallet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.place__paypal {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(104%) contrast(108%);
+          filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(104%) contrast(108%);
+  background-image: url("../iconos/logotipo-de-paypal.svg");
+}
+.place__visa {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(104%) contrast(108%);
+          filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(104%) contrast(108%);
+  background-image: url("../iconos/logotipo-de-visa.svg");
+}
+.place__pay {
+  color: white;
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.place__pay a {
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  background-color: white;
+}
+.place__pay:hover {
+  -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  padding: 20px;
+}
+.place__pay:hover a:hover {
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+  .place {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .place__img {
+    width: 50%;
+  }
+  .place__img img {
+    width: 70%;
+  }
+  .place__desc {
+    width: 50%;
+  }
+}
