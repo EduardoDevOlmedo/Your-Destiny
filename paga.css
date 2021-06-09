@@ -159,7 +159,7 @@ input {
   background-repeat: no-repeat;
   -webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(104%) contrast(108%);
           filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(104%) contrast(108%);
-  background-image: url("../iconos/logotipo-de-paypal.svg");
+  background-image: url("iconos/logotipo-de-paypal.svg");
 }
 .place__visa {
   display: inline-block;
@@ -169,7 +169,7 @@ input {
   background-repeat: no-repeat;
   -webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(104%) contrast(108%);
           filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(104%) contrast(108%);
-  background-image: url("../iconos/logotipo-de-visa.svg");
+  background-image: url("iconos/logotipo-de-visa.svg");
 }
 .place__pay {
   color: white;
