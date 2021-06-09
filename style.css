@@ -186,6 +186,8 @@ header{
   padding: 3px;
   color: rgb(221, 219, 214);
   letter-spacing: 2px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .nav-container{
