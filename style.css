@@ -431,7 +431,7 @@ h2{
 
 .go-action{
   display: inline-block;
-  background-image: url('../iconos/next.svg');
+  background-image: url('iconos/next.svg');
   width: 19px;
   height: 19px;
   background-position: center;
@@ -535,7 +535,7 @@ h2{
   width: 20px;
   background-position: center;
   background-size: cover;
-  background-image: url('../iconos/star-with-five-points.svg');
+  background-image: url('iconos/star-with-five-points.svg');
   justify-self: flex-start;
 }
 
@@ -549,7 +549,7 @@ h2{
   width: 25px;
   background-position: center;
   background-size: cover;
-  background-image: url('../iconos/shopping-cart.svg');
+  background-image: url('iconos/shopping-cart.svg');
   justify-self: flex-start;
   padding: 2px;
 }
